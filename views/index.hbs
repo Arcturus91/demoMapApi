@@ -1,0 +1,28 @@
+<h1>{{appTitle}} 🚀</h1>
+<p>Welcome Ironhacker!</p>
+
+
+<input type="text" placeholder="Enter a location" id="input" name="inputText">
+
+<input type="button" value="Geocode" class="button button-primary" id="geocode" name="submitButton">
+
+<input type="button" value = "Clear" class="button button-secondary" name="clearButton">
+<div id="response-container">
+<pre name="response" id="response" innerText=""></pre>
+</div>
+
+<p id="instructions">
+  "<strong>Instructions</strong>: Enter an address in the textbox to geocode or click on the map to reverse geocode.";
+
+</p>
+
+
+<div id="map"></div>
+
+<script src="{{key}}"></script>
+
+
+<script src="/js/maps.js"></script>
+
+
+
